@@ -1,5 +1,10 @@
 var i=0;
 function rece(){
+	//Plays the sound when the button is clicked
+      var audio = new Audio('button-3.mp3');
+         audio.play();
+	
+	
 const options = {
 	method: 'GET',
 	headers: {
