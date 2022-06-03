@@ -19,7 +19,7 @@ fetch(`https://google-search3.p.rapidapi.com/api/v1/search/q=${search}`, options
         function locate(response)
         {
 para.href= `${response.results[i].link}`;
-para.innerHTML= `${response.results[i].title}`;
+para.innerHTML= `${response.results[i].link}`;
 i++;
         }
 }
